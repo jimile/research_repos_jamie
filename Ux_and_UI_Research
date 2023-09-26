@@ -3,3 +3,33 @@ Some examples of brutalist websites that have captured my attention that I would
 https://canary---yellow.com/
 https://emitakahashi.github.io/superglyph-workshop/
 https://kikokostadinov.com/
+
+# UX and UI Design for Brutalist Websites
+
+## Introduction
+
+Brutalist web design is known for its raw and unapologetically bold aesthetics. When designing a brutalist website, it's essential to maintain a balance between unconventional visual elements and a user-friendly experience. Here are some key principles and code snippets to consider:
+
+## UX Design Principles
+
+### 1. Clarity and Simplicity
+
+Brutalist websites often have a minimalistic approach. Keep your design simple and straightforward to avoid overwhelming users.
+
+### 2. User Flow
+
+Ensure a clear and intuitive user flow. Make navigation and interactions easy to understand.
+
+## UI Design Principles
+
+### 1. Typography
+
+Choose bold and legible fonts. Experiment with font sizes and styles to create visual impact.
+
+```css
+/* Example: Setting font style */
+.body-text {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
