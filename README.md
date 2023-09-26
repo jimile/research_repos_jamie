@@ -24,10 +24,6 @@ I want to express my heartfelt gratitude for being a part of this journey, and I
 
 ## Introduction
 
-Welcome to (blessed)thanks, your destination for unique and stylish fashion. At (blessed)thanks, we believe in the power of fashion to make you feel confident and blessed every day. This repository houses the code and research materials for our fully functional e-commerce webstore.
-
-In this project, I've embarked on a journey as a website designer, seeking to create not just a functional website but a platform that sets new standards for online fashion stores. While we've successfully launched a functional website, I recognize that there's always room for improvement, and that's where my dedication to learning more about code, CSS, and HTML comes into play.
-
 This research repository is an integral part of my journey as a website designer. It's a space where I delve deep into the world of code, CSS, and HTML, aiming to refine my skills and understanding. My goal is to use this newfound knowledge to create a better online store—a store that not only provides a seamless shopping experience but also stands as a testament to the evolving landscape of web design and technology.
 
 In this project, I aimed to create a fully functional e-commerce webstore that not only provides a seamless shopping experience but also serves as a playground for my exploration of various programming languages, including JavaScript, Ruby, HTML, C++, and more. I believe that combining solid UX principles with a diverse tech stack is key to building an exceptional e-commerce platform.
