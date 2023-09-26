@@ -41,14 +41,16 @@ I've documented my experiences and code snippets for each language within the pr
 
 ## Code Snippets
 
-This repository includes code snippets that demonstrate my progress in implementing various features of the e-commerce webstore. You can find them in the following directories:
+Explore specific code snippets related to different aspects of the project:
 
-- [JavaScript Snippets](./javascript-snippets)
-- [Ruby Snippets](./ruby-snippets)
-- [HTML/CSS Snippets](./html-css-snippets)
-- [C++ Snippets](./cpp-snippets)
+- [JavaScript Snippets](./javascript-snippets): Discover JavaScript code examples for enhancing user interactivity.
 
-Feel free to explore and provide feedback on these code snippets!
+- [Ruby Snippets](./ruby-snippets): Check out Ruby code snippets used for backend logic and data handling.
+
+- [HTML/CSS Snippets](./html-css-snippets): Dive into HTML and CSS code snippets for styling and structuring the website.
+
+- [C++ Snippets](./cpp-snippets): Experiment with C++ code snippets for exploring performance enhancements (if applicable).
+
 
 ## Installation
 
