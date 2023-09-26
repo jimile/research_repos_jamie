@@ -60,16 +60,3 @@ To run this project locally, follow these steps:
 2. Install the required dependencies for each programming language as specified in their respective directories.
 3. Follow the usage instructions to start and interact with the webstore.
 
-## Usage
-
-Detailed usage instructions and guides are provided within the project's documentation. Please refer to the [Documentation](./documentation) directory for more information on setting up and using the e-commerce webstore.
-
-## Contributing
-
-If you're interested in contributing to this project or have suggestions for improvement, please feel free to open issues or submit pull requests. Your input is highly appreciated!
-
-## License
-
-This project is licensed under the [MIT License](./LICENSE). Feel free to use, modify, and share this code as per the terms of the license.
-
-Thank you for exploring my e-commerce webstore project! I hope you find it informative and inspiring.
