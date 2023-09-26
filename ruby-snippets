@@ -1,0 +1,40 @@
+#Product Classes
+
+class Product
+  attr_accessor :id, :name, :price, :description
+
+  def initialize(id, name, price, description)
+    @id = id
+    @name = name
+    @price = price
+    @description = description
+  end
+end
+
+# Sample usage:
+product1 = Product.new(1, "Stylish T-Shirt", 29.99, "A comfortable and trendy T-shirt.")
+product2 = Product.new(2, "Classic Jeans", 49.99, "High-quality denim jeans.")
+
+#Shopping cart 
+
+class ShoppingCart
+  attr_accessor :items
+
+  def initialize
+    @items = []
+  end
+
+  def add_item(product, quantity)
+    @items << { product: product, quantity: quantity }
+  end
+
+  def total_price
+    @items.reduce(0) { |total, item| total + item[:product].price * item[:quantity] }
+  end
+end
+
+# Sample usage:
+cart = ShoppingCart.new
+cart.add_item(product1, 2)
+cart.add_item(product2, 1)
+total = cart.total_price
