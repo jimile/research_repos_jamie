@@ -33,3 +33,14 @@ Choose bold and legible fonts. Experiment with font sizes and styles to create v
     font-size: 18px;
     font-weight: 400;
 }
+
+/* Example: Styling a CTA button */
+.cta-button {
+    background-color: #f60;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
