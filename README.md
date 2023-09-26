@@ -61,13 +61,3 @@ Explore specific code snippets related to different aspects of the project:
 - [HTML/CSS Snippets](./html-css-snippets): Dive into HTML and CSS code snippets for styling and structuring the website.
 
 - [C++ Snippets](./cpp-snippets): Experiment with C++ code snippets for exploring performance enhancements (if applicable).
-
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone this repository to your local machine.
-2. Install the required dependencies for each programming language as specified in their respective directories.
-3. Follow the usage instructions to start and interact with the webstore.
-
