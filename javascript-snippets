@@ -1,0 +1,55 @@
+#creating a login for web secuirty within Java script
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+    // Define a custom UserDetailsService bean to manage user details
+    @Bean
+    public UserDetailsService userDetailsService() {
+        InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
+        PasswordEncoder encoder = new BCryptPasswordEncoder();
+
+        // Create a sample user with encoded password
+        UserDetails user = User.builder()
+                .username("user")
+                .password(encoder.encode("password"))
+                .roles("USER")
+                .build();
+
+        // Add the user to the in-memory user details manager
+        manager.createUser(user);
+
+        return manager;
+    }
+
+    // Configure security settings
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+            .authorizeRequests()
+                .antMatchers("/product/**").authenticated() // Protect product-related pages
+                .antMatchers("/cart/**").authenticated()   // Protect cart-related pages
+                .anyRequest().permitAll()                 // Allow access to other pages
+                .and()
+            .formLogin()
+                .loginPage("/login")                      // Custom login page
+                .permitAll()
+                .and()
+            .logout()
+                .permitAll();
+    }
+}
+
