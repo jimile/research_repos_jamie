@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About Us - (blessed)thanks</title>
+</head>
+<body>
+    <header>
+        <h1>(blessed)thanks</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Welcome to (blessed)thanks, your go-to destination for stylish fashion. Our mission is to provide you with high-quality clothing and accessories that make you feel blessed and confident every day.</p>
+            <p>Founded in 20XX, (blessed)thanks has been dedicated to offering the latest trends while maintaining a commitment to quality and sustainability.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 (blessed)thanks - Fashion Store</p>
+    </footer>
+</body>
+</html>
